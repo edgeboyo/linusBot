@@ -15,7 +15,7 @@ def init():
         dtoken = f.readline()
 
     dtoken = sanitize(dtoken)
-    print(dtoken)
+    # print(dtoken)
 
 
     client = DiscordClient()
